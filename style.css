@@ -24,7 +24,7 @@ nav {
   word-spacing: 5px;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
 }
 
 .container-fluid h1 {
@@ -32,6 +32,7 @@ nav {
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  letter-spacing: 2px;
 }
 p {
   font-family: 'Montserrat', sans-serif;
