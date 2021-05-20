@@ -39,3 +39,22 @@ p {
   color: #fff;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
+@media (max-width: 600px) {
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(37, 43, 49, 0.5)),
+      url('img/pexels-tima-miroshnichenko-5439460.jpg');
+    background-position: fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  #lanlogo {
+    margin-top: 140px;
+    width: 50px;
+  }
+  #title {
+    font-size: 19px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+  }
+}

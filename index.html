@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- FAVICON -->
     <link rel="apple-touch-icon" href="./img/favicon1.png" />
     <link rel="shortcut icon" type="image/png" href="./img/favicon1.png" />
@@ -40,7 +42,7 @@
         </a>
       </div>
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid" data-aos="fade-up">
       <div class="text-center">
         <div class="col-sm-12">
           <img src="/img/logo5.png" id="lanlogo" alt="" class="img-fluid" />
@@ -51,5 +53,10 @@
         </div>
       </div>
     </div>
+    <!-- SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>
